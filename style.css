@@ -1,0 +1,405 @@
+
+.box{
+    width: 300px;
+    height: 400px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.first-box{
+    background-color: rgb(96, 9, 238);
+    opacity: 0.9;
+    position: relative;
+    top: 180px;
+    left: 27%;
+    z-index: 1;
+}
+h3{
+    text-align: center;
+    color: #ddd;
+    padding-top: 25px;
+    font-family: sans-serif;
+}
+.first-box #position{
+    position: absolute;
+    top: 80px;
+    left: 30%;
+    border-radius: 50% 50% 50% 50%;
+    /* background-color: rgba(56, 9, 184); */
+    background: linear-gradient(to bottom,rgba(56, 9, 184), transparent);
+    width: 120px;
+    height: 120px;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* color: white; */
+    font-size: 40px;
+    margin-top: 20px;
+}
+h6{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    opacity: 0.5;
+}
+div h1{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 36%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.footer{
+    position: absolute;
+    top: 285px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    opacity: 0.5;
+}
+.f1{
+    margin-left: 36px;
+}
+.f2{
+    margin-left: 47px;
+}
+.f3{
+    margin-left: 103px;
+}
+.second-box{
+    border-top: 1px solid rgba(240, 240, 240,0.1);
+    border-right: 1px solid rgba(240, 240, 240, 0.4);
+    border-bottom: 1px solid rgba(240, 240, 240, 1);
+    position: relative;
+    left: 50%;
+    z-index: 0;
+    bottom: 220px;
+    }
+.summary{
+    color: black;
+    opacity: 0.6;
+    text-align: left;
+    padding: 5px 45px;
+    font-family: sans-serif;
+}
+#box{
+    height: 50px;
+    width: 220px;
+    border-radius: 10px 10px 10px 10px;
+}
+.reaction-box{
+    background-color: rgba(255, 192, 203, 0.167);
+    margin-left: 46px;
+}
+.reaction{
+    position: relative;
+    top: 15px;
+    left: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(216, 13, 13, 0.678);
+}
+.eighty{
+    position: relative;
+    bottom: 13.5px;
+    left: 155px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.hundred{
+    position: relative;
+    bottom: 31.5px;
+    left: 175px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    /* opacity: 0.5; */
+}
+#fade{
+    opacity: 0.5;
+}
+.reaction-box-leg1{
+    width: 220px;
+    height: 10px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    /* border-top-left-radius: 150px; */
+    /* border-bottom-left-radius: 4px; */
+    border-top-left-radius: 20px;
+    position: absolute;
+    top: 68px;
+    left: 45.5px;
+}
+.reaction-box-leg2{
+   width: 220px;
+   height: 10px;
+   position: absolute;
+   top: 109px;
+   left: 45.5px;
+   border-left: 1.5px solid rgba(0,0,0,0.1);
+   border-bottom-left-radius: 20px;
+}
+.reaction-box-leg3{
+    width: 220px;
+   height: 10px;
+   position: absolute;
+   top: 68px;
+   /* left: 45px; */
+   right: 33px;
+   border-right: 1.5px solid rgba(0,0,0,0.1);
+   border-top-right-radius: 20px;
+}
+.reaction-box-leg4{
+    width: 220px;
+   height: 10px;
+   position: absolute;
+   top: 109px;
+   /* left: 45px; */
+   right: 33px;
+   border-right: 1.5px solid rgba(0,0,0,0.1);
+   border-bottom-right-radius: 20px;
+}
+.memory-box{
+    background-color: rgba(255, 235, 205, 0.363);
+    /* margin-left: 46px; */
+    position: relative;
+    top: -3px;
+    left: 46px;
+}
+.memory{
+    position: relative;
+    top: 15px;
+    left: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 206, 8);
+}
+.ninety-two{
+    position: relative;
+    bottom: 13.5px;
+    left: 155px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.hundred1{
+    position: relative;
+    bottom: 31.5px;
+    left: 175px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.memory-box-leg1{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 128px;
+    left: 45px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    border-top-left-radius: 20px;
+}
+.memory-box-leg2{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 168px;
+    left: 45px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    border-bottom-left-radius: 20px;
+}
+.memory-box-leg3{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 128px;
+    left: 45.8px;
+    border-right: 1.5px solid rgba(0,0,0,0.1);
+    border-top-right-radius: 20px;
+    /* border-bottom-right-radius: 3px; */
+}
+.memory-box-leg4{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    left: 45px;
+    top: 168px;
+    border-right: 1.5px solid rgba(0,0,0,0.1);
+    /* border-top-right-radius: 3px; */
+    border-bottom-right-radius: 20px;
+}
+.verbal-box{
+    background-color: rgba(0, 128, 0, 0.106);
+    position: relative;
+    top: -6px;
+    left: 46px;
+}
+.verbal{
+    position: relative;
+    top: 15px;
+    left: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(9, 167, 9, 0.665); 
+}
+.sixty-one{
+    position: relative;
+    bottom: 13.5px;
+    left: 156px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.verbal-box-leg1{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 188px;
+    left: 45px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    border-top-left-radius: 20px;
+    /* border-bottom-left-radius: 4px; */
+}
+.verbal-box-leg2{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 227px;
+    left: 46px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    /* border-top-left-radius: 4px; */
+    border-bottom-left-radius: 20px;
+}
+.verbal-box-leg3{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 188px;
+    right: 33px;
+    border-right: 1.5px solid rgba(0,0,0,0.1);
+    border-top-right-radius: 20px;
+    /* border-bottom-right-radius: 4px; */
+}
+.verbal-box-leg4{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 227px;
+    right: 33px;
+    border-right: 1.5px solid rgba(0,0,0,0.1);
+    /* border-top-right-radius: 0.5px; */
+    border-bottom-right-radius: 20px;
+}
+.visual-box{
+    background-color: rgba(0, 0, 255, 0.118);
+    position: relative;
+    top: 1px;
+    left: 46px;
+}
+.visual{
+    position: relative;
+    top: 15px;
+    left: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(38, 38, 238);
+}
+.seventy-two{
+    position: relative;
+    bottom: 13.5px;
+    left: 156px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500; 
+}
+.visual-box-leg1{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 248px;
+    left: 45px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    border-top-left-radius: 20px;
+}
+.visual-box-leg2{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 248px;
+    right: 33px;
+    border-right: 1.5px solid rgba(0,0,0,0.1);
+    border-top-right-radius: 20px;
+}
+.visual-box-leg3{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 285px;
+    left: 45px;
+    border-left: 1.5px solid rgba(0,0,0,0.1);
+    border-bottom-left-radius: 20px;
+}
+.visual-box-leg4{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: 285px;
+    right: 33px;
+    border-right: 1.5px solid rgba(0,0,0,0.1);
+    border-bottom-right-radius: 20px;
+}
+.continue-box{
+    width: 220px;
+    height: 40px;
+    background-color: rgba(3, 3, 84, 0.8) ;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+.continue{
+    position: absolute;
+    top: 14px;
+    left: 39%;
+    font-family: sans-serif;
+    font-size: 12px;
+    opacity: 0.9;
+}
+.visual:first-child{
+    margin-top: 2px;
+}
+@media(max-width: 768px) {
+    body{
+        /* position: relative; */
+       width: 50vw;
+       height: 20vh;
+       margin: 0px;
+       padding: 0px; 
+    }
+}
+
+@media(max-width: 768px) {
+    .first-box{
+        position: absolute;
+        top: 90px;
+        margin: 0px;
+    }
+}
+@media(max-width: 768px) {
+    .second-box{
+        position: absolute;
+        bottom: -300px;
+        left: 130px;
+        margin: 0px;
+        
+    }
+}
